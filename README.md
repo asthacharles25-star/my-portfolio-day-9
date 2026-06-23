@@ -1,16 +1,48 @@
-# React + Vite
+# Day 8 - React Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Completed Tasks
 
-Currently, two official plugins are available:
+- Setup React project using Vite.
+- Installed dependencies and configured project structure.
+- Created components folder.
+- Converted portfolio into React components.
+- Added:
+  - Header Component
+  - Hero Component
+  - About Component
+  - Skills Component
+  - Projects Component
+  - Todo Component
+  - Weather Component
+  - Contact Component
+  - Footer Component
+- Connected all components through App.jsx.
+- Used functional components.
+- Built and tested the project locally.
+- Created a separate GitHub repository for Day 8.
+- Pushed the React project to GitHub.
+- Configured Vite for deployment.
+- Built the production files.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
 
-## React Compiler
+- React.js
+- Vite
+- JavaScript
+- HTML
+- CSS
+- Git
+- GitHub
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Learning Outcomes
 
-## Expanding the ESLint configuration
+- Understanding React project structure.
+- Creating reusable components.
+- Importing and exporting components.
+- Using App.jsx to combine components.
+- Basic React application setup.
+- Git and GitHub workflow.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Repository
+
+my-portfolio-day-8
