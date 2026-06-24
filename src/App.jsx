@@ -1,24 +1,25 @@
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
-import Todo from "./components/Todo";
-import Weather from "./components/Weather";
-import Contact from "./components/Contact";
+import { Routes, Route } from "react-router-dom";
+
+import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+
+import Home from "./Pages/Home";
+import AboutPage from "./Pages/AboutPage";
+import ProjectsPage from "./Pages/ProjectsPage";
+import ContactPage from "./Pages/ContactPage";
 
 function App() {
   return (
     <>
-      <Header />
-      <Hero />
-      <About />
-      <Skills />
-      <Projects />
-      <Todo />
-      <Weather />
-      <Contact />
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/projects" element={<ProjectsPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+      </Routes>
+
       <Footer />
     </>
   );
