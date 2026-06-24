@@ -1,52 +1,30 @@
-<<<<<<< HEAD
-# Day 8 - React Portfolio
+# my-portfolio-day-9
+# Day 9 – React Router and State Management
 
-## Completed Tasks
+## Task Completed
 
-- Setup React project using Vite.
-- Installed dependencies and configured project structure.
-- Created components folder.
-- Converted portfolio into React components.
-- Added:
-  - Header Component
-  - Hero Component
-  - About Component
-  - Skills Component
-  - Projects Component
-  - Todo Component
-  - Weather Component
-  - Contact Component
-  - Footer Component
-- Connected all components through App.jsx.
-- Used functional components.
-- Built and tested the project locally.
-- Created a separate GitHub repository for Day 8.
-- Pushed the React project to GitHub.
-- Configured Vite for deployment.
-- Built the production files.
+* React Router setup using BrowserRouter
+* Multi-page navigation (Home, About, Projects, Contact)
+* useState implementation
+* useEffect implementation
+* Dark Mode with localStorage
+* Project Modal using React state
+* Contact Form Validation
+* Responsive Navigation using NavLink
 
 ## Technologies Used
 
-- React.js
-- Vite
-- JavaScript
-- HTML
-- CSS
-- Git
-- GitHub
+* React.js
+* React Router DOM
+* JavaScript
+* CSS
+* Vite
 
-## Learning Outcomes
+## Learning Highlights
 
-- Understanding React project structure.
-- Creating reusable components.
-- Importing and exporting components.
-- Using App.jsx to combine components.
-- Basic React application setup.
-- Git and GitHub workflow.
-
-## Repository
-
-my-portfolio-day-8
-=======
-# my-portfolio-day-9
->>>>>>> d07b151ac654ea830cbc4405c7bf30f7944c7813
+* Routing in React applications
+* State management with useState
+* Side effects with useEffect
+* Local storage integration
+* Form validation techniques
+* Component-based architecture
