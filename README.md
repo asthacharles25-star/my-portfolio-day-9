@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Day 8 - React Portfolio
 
 ## Completed Tasks
@@ -46,3 +47,6 @@
 ## Repository
 
 my-portfolio-day-8
+=======
+# my-portfolio-day-9
+>>>>>>> d07b151ac654ea830cbc4405c7bf30f7944c7813
